@@ -4,7 +4,9 @@
   "description": "testing environment for playing",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "test-ui": "vitest --ui"
   },
   "repository": {
     "type": "git",
@@ -13,6 +15,8 @@
   "author": "manueldevjour",
   "license": "ISC",
   "devDependencies": {
+    "@vitest/coverage-v8": "^1.2.1",
+    "@vitest/ui": "^1.2.1",
     "vitest": "^1.2.1"
   }
 }
